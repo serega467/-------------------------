@@ -1,0 +1,253 @@
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans|PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic);
+
+body p {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+#about.container {
+  margin-top: 30px !important;
+}
+
+body.light a {
+  color: #000;
+}
+
+body.light p {
+  color: #000;
+}
+
+.homeParent {
+  margin-bottom: 150px;
+}
+
+.contact__phone {
+  display: flex;
+  gap: 15px;
+}
+
+.contact__phone-ru {}
+
+.contact__phone-ru img {
+  width: 17px;
+  height: 17px;
+}
+
+.contact__phone-uk {}
+
+.contact__phone-uk img {
+  width: 16px;
+  height: 16px;
+}
+
+.homeContent-info {
+  padding-top: 50px;
+}
+
+.homeContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.homeContent-info.navChild #title-info {
+
+  font-family: 'Tenor Sans', sans-serif !important;
+  font-size: 50px !important;
+  letter-spacing: 2px !important;
+  line-height: 1.4em !important;
+  text-transform: uppercase !important;
+  padding-bottom: 50px !important;
+}
+
+h3#title-text.priority {
+  margin-bottom: 24px;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: #50C878;
+}
+
+body.light #home h3#title-text {
+  color: #000 !important;
+}
+
+h3#title-text {
+  display: flex;
+  font-size: 30px !important;
+  font-style: italic;
+
+  color: #fff !important;
+  font-family: 'PT Serif', serif !important;
+  margin-bottom: 10px;
+}
+
+h1.quote {
+  font-size: 25px !important;
+  color: #50C878 !important;
+  padding: 27px 0 10px !important;
+}
+
+span.lozung {
+  font-size: 15px;
+  color: #ff0000;
+  display: block;
+  text-align: right !important;
+}
+
+
+.homeContent-foto.navChild img {
+  display: block;
+  object-fit: cover;
+  padding-top: 100px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 50px !important;
+  border-top-left-radius: 50px !important;
+
+  /* анимация картинки */
+  position: relative;
+  top: 50%;
+  left: 100px;
+  transform: translateY(-50%);
+  animation-name: Appearance;
+  animation-duration: 2.5s;
+  animation-timing-function: cubic-bezier(.1, -.6, .2, 0);
+}
+
+img#ava {
+  margin-right: 100px;
+  left: 0;
+}
+
+@keyframes Appearance {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#services {
+  display: none;
+}
+
+
+#contact {
+  bottom: 0px !important;
+}
+
+.contactHeader h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px !important;
+}
+
+.contactAnimation {
+  min-height: 300px !important;
+  bottom: 0px !important;
+}
+
+.backgroundDiv-footer {
+  height: 600px !important;
+
+}
+
+p.footer {
+  font-size: 24px !important;
+  line-height: 40px !important;
+}
+
+p.footer.footer-tel {
+  font-size: 28px;
+  margin-top: 20px !important;
+}
+
+p.rules {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  margin: 35px auto 30px;
+}
+
+.contact__phone--footer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.contact__phone--footer a {
+  animation: flow 30s ease-in-out infinite;
+  background: linear-gradient(-60deg, #904e95, #904e95, #e73c7e, #ee7752);
+  background-size: 300%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes flow {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 50% 100%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@media (max-width: 1420px) {
+  .homeContent-info.navChild #title-info {
+    padding-top: 120px;
+  }
+
+  #home .homeParent .homeContent h3 {
+
+    padding-bottom: 0px !important;
+    font-size: 30px !important;
+  }
+
+  h3#title-text.priority {
+    margin-bottom: 10px;
+  }
+
+  img#ava {
+    
+  }
+
+  #home .homeParent .homeContent {
+    margin-top: -10px !important;
+  }
+  #home {
+    margin-bottom: 50px;
+  }
+  #about {
+    margin-top: 20px;
+  }
+
+  #home .homeParent .homeContent {
+    margin-top: 20px;
+  }
+
+  #home .homeParent {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 698px) {
+  .contact__phone--footer {
+    display: flex;
+    flex-direction: column;
+  }
+}

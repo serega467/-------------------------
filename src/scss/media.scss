@@ -1,0 +1,1446 @@
+
+
+
+
+
+                        // NAV
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .navParent {
+        justify-content: space-between !important;
+
+        .navItem1 {
+            margin-left: 5% !important;
+        }
+
+        .navItem2 {
+            display: none !important;
+        }
+
+        .navItem4 {
+            display: block !important;
+            margin-right: 5% !important;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navParent {
+
+        .navItem1 {
+            img {
+                width: 80% !important;
+            }
+        }
+
+        .navItem3 {
+
+            i {
+                font-size: 25px !important;
+            }
+        }
+
+        .navItem4 {
+
+            .navBtn {
+                width: 40px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .navParent {
+
+        .navItem1 {
+            img {
+                width: 75% !important;
+            }
+        }
+
+        .navItem3 {
+
+            i {
+                font-size: 23px !important;
+            }
+        }
+
+        .navItem4 {
+
+            .navBtn {
+                width: 33px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .mobileNavParent {
+        width: 58% !important;
+
+        .menuParent {
+
+            .menuTop {
+
+                div:first-child {
+                    
+                    img {
+                        width: 80% !important;
+                    }
+                }
+
+                .closeMobile {
+
+                    i {
+                        font-size: 20px !important;
+                    }
+                }
+            }
+
+            .menuContent {
+
+                ul {
+
+                    li {
+                        margin-top: 20px !important;
+
+                        a {
+                            font-size: 20px !important;
+                        }
+                    }
+                }
+            }
+
+            .menuBottom {
+                margin-top: 220px !important;
+
+                p {
+                    font-size: 18px !important;
+
+                    a {
+                        font-size: 20px !important;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .mobileNavParent {
+        width: 60% !important;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .mobileNavParent {
+        width: 62% !important;
+    }
+
+}
+
+
+
+
+                        // HOME
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .homeParent {
+
+        .homeContent {
+
+            h3 {
+                font-size: 18px !important;
+            }
+
+            h1 {
+                font-size: 70px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 840px) {
+
+    .homeParent {
+
+        .homeContent {
+
+            h3 {
+                font-size: 16px !important;
+            }
+
+            h1 {
+                font-size: 60px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 610px) {
+
+    .homeParent {
+
+        .homeContent {
+
+            h3 {
+                font-size: 15px !important;
+            }
+
+            h1 {
+                font-size: 50px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .homeParent {
+
+        .homeContent {
+
+            h3 {
+                font-size: 14px !important;
+            }
+
+            h1 {
+                font-size: 35px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+
+    .homeParent {
+
+        .homeContent {
+
+            h3 {
+                font-size: 13px !important;
+            }
+
+            h1 {
+                font-size: 30px !important;
+            }
+        }
+    }
+
+}
+
+
+
+
+                        // ABOUT
+
+
+
+
+@media only screen and (max-width: 1500px) {
+
+    .backgroundSection {
+    
+        .backgroundDiv {
+            padding: 60px;
+            max-width: 1000px !important;
+        }
+    }
+
+    .aboutAnimation {
+        min-height: 1000px !important;
+    }
+
+    .aboutParent {
+        display: block !important;
+
+        .aboutImgParent {
+            width: 100% !important;
+
+            img {
+                width: 70% !important;
+            }
+        }
+
+        .aboutContentParent {
+            width: 100% !important;
+            margin-left: 0 !important;
+
+            h1 {
+                margin-top: 50px !important;
+            }
+
+            .aboutSmallParent {
+                display: block !important;
+
+                p {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .backgroundSection {
+    
+        .backgroundDiv {
+            padding: 60px;
+            max-width: 800px !important;
+        }
+    }
+
+    .aboutParent {
+
+        .aboutImgParent {
+
+            img {
+                width: 80% !important;
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .backgroundSection {
+    
+        .backgroundDiv {
+            padding: 60px;
+            max-width: 700px !important;
+        }
+    }
+
+    .aboutParent {
+
+        .aboutImgParent {
+
+            img {
+                width: 100% !important;
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+    .aboutParent {
+
+        .aboutContentParent {
+
+            h1 {
+                font-size: 23px !important;
+            }
+
+            h2 {
+                font-size: 16px !important;
+                line-height: 25px !important;
+            }
+
+            h3 {
+                font-size: 20px !important;
+            }
+
+            p {
+                font-size: 18px !important;
+                line-height: 25px !important;
+            }
+
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+
+    .backgroundSection {
+    
+        .backgroundDiv {
+            padding: 40px !important;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+
+    .aboutParent {
+
+        .aboutContentParent {
+
+            h1 {
+                font-size: 20px !important;
+            }
+
+            h2 {
+                font-size: 14px !important;
+                line-height: 25px !important;
+            }
+
+            h3 {
+                font-size: 18px !important;
+            }
+
+            p {
+                font-size: 14px !important;
+                line-height: 25px !important;
+            }
+
+            h4 {
+                font-size: 14px !important;
+            }
+
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+    .backgroundSection {
+    
+        .backgroundDiv {
+            padding: 20px !important;
+        }
+    }
+
+}
+
+
+
+
+                        // PORTFOLIO
+
+
+
+
+
+@media only screen and (max-width: 1500px) {
+    
+
+    #portfolio {
+        margin-top: 0px !important;
+    }
+
+    .portfolioParent {
+
+        .portfolioHeader {
+
+            h2 {
+                width: 100% !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    .portfolioParent {
+
+        .portfolioHeader {
+
+            h1 {
+                font-size: 25px !important;
+            }
+
+            h2 {
+                width: 100% !important;
+                font-size: 20px !important;
+            }
+
+            .portfolioBtnParent {
+
+                button {
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .portfolioParent {
+
+        .portfolioHeader {
+
+            h2 {
+                margin-top: 10px !important;
+            }
+
+            .portfolioBtnParent {
+
+                button {
+                    margin: 0 10px !important;
+                    margin-top: 20px !important;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .portfolioParent {
+
+        .portfolioHeader {
+
+            h2 {
+                margin-top: 10px !important;
+                letter-spacing: 0 !important;
+                line-height: 25px !important;
+            }
+
+            .portfolioBtnParent {
+
+                button {
+                    margin: 0 5px !important;
+                    margin-top: 20px !important;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .portfolioParent {
+
+        .portfolioHeader {
+
+            .portfolioBtnParent {
+
+                button {
+                    margin: 0 10px !important;
+                    margin-top: 20px !important;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .portfolioImageParent {
+
+        grid-template-columns: repeat(2, 1fr) !important;
+
+    }
+
+    .all {
+        height: 2500px !important;
+        grid-template-rows: repeat(12, 1fr) !important;
+
+        .portfolioImage1 {
+            grid-row: 1 / span 1 !important;
+        }
+
+        .portfolioImage2 {
+            grid-row: 1 / span 2 !important;
+        }
+
+        .portfolioImage3 {
+            grid-row: 2 / span 2 !important;
+        }
+
+        .portfolioImage4 {
+            grid-row: 3 / span 2 !important;
+        }
+
+        .portfolioImage5 {
+            grid-row: 4 / span 2 !important;
+        }
+
+        .portfolioImage6 {
+            grid-row: 5 / span 2 !important;
+        }
+
+        .portfolioImage7 {
+            grid-row: 6 / span 2 !important;
+        }
+
+        .portfolioImage8 {
+            grid-row: 7 / span 2 !important;
+        }
+
+        .portfolioImage9 {
+            grid-row: 8 / span 2 !important;
+        }
+
+        .portfolioImage10 {
+            grid-row: 9 / span 2 !important;
+        }
+
+        .portfolioImage11 {
+            grid-row: 10 / span 2 !important;
+        }
+
+        .portfolioImage12 {
+            grid-row: 11 / span 2 !important;
+        }
+
+        .portfolioImage13 {
+            grid-row: 12 / span 1 !important;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .portfolioImageParent {
+
+        i {
+            font-size: 30px !important;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .all {
+        height: 2000px !important;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+
+    .portfolioImageParent {
+        grid-gap: 10px !important;
+
+        i {
+            font-size: 20px !important;
+        }
+    }
+
+    .all {
+        height: 1700px !important;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .portfolioImageParent {
+        margin-top: 40px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .foods {
+        height: 600px !important;
+    }
+
+    .portfolioAnimation {
+        min-height: 800px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .foods {
+        height: 500px !important;
+
+        .portfolioImage3 {
+            grid-row: 1 / span 2 !important;
+        }
+
+        .portfolioImage6 {
+            grid-row: 1 / span 1 !important;
+        }
+
+        .portfolioImage7 {
+            grid-row: 2 / span 2 !important;
+        }
+
+        .portfolioImage10 {
+            grid-row: 3 / span 1 !important;
+        }
+
+    }
+
+    .portfolioAnimation {
+        min-height: 700px !important;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .portfolioAnimation {
+        min-height: 600px !important;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .foods {
+        height: 300px !important;
+    }
+
+    .portfolioAnimation {
+        min-height: 500px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .drinks {
+        height: 700px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .drinks {
+        height: 900px !important;
+        grid-template-rows: repeat(5, 1fr) !important;
+
+        .portfolioImage1 {
+            grid-row: 1 / span 1 !important;
+        }
+
+        .portfolioImage4 {
+            grid-row: 1 / span 2 !important;
+        }
+
+        .portfolioImage8 {
+            grid-row: 2 / span 2 !important;
+        }
+
+        .portfolioImage11 {
+            grid-row: 3 / span 2 !important;
+        }
+
+        .portfolioImage12 {
+            grid-row: 4 / span 2 !important;
+        }
+
+        .portfolioImage13 {
+            grid-row: 5 / span 1 !important;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .drinks {
+        height: 700px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .events {
+        height: 700px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .events {
+        height: 900px !important;
+        grid-template-rows: repeat(5, 1fr) !important;
+
+        .portfolioImage2 {
+            grid-row: 1 / span 1 !important;
+        }
+
+        .portfolioImage3 {
+            grid-row: 1 / span 2 !important;
+        }
+
+        .portfolioImage5 {
+            grid-row: 2 / span 2 !important;
+        }
+
+        .portfolioImage6 {
+            grid-row: 3 / span 2 !important;
+        }
+
+        .portfolioImage9 {
+            grid-row: 4 / span 2 !important;
+        }
+
+        .portfolioImage10 {
+            grid-row: 5 / span 1 !important;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .events {
+        height: 700px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .pastries {
+        height: 700px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .pastries {
+        height: 800px !important;
+        grid-template-rows: repeat(4, 1fr) !important;
+
+        .portfolioImage1 {
+            grid-row: 1 / span 1 !important;
+        }
+
+        .portfolioImage8 {
+            grid-row: 1 / span 2 !important;
+        }
+
+        .portfolioImage11 {
+            grid-row: 2 / span 2 !important;
+        }
+
+        .portfolioImage12 {
+            grid-row: 3 / span 2 !important;
+        }
+
+        .portfolioImage13 {
+            grid-row: 4 / span 1 !important;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .pastries {
+        height: 600px !important;
+    }
+
+}
+
+
+
+
+                        // GALLERY
+
+
+
+
+
+@media only screen and (max-width: 1500px) {
+    
+
+    #gallery {
+        margin-top: 0px !important;
+    }
+
+    .galleryParent {
+
+        .galleryHeader {
+
+            h2 {
+                width: 100% !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    .galleryParent {
+
+        .galleryHeader {
+
+            h1 {
+                font-size: 25px !important;
+            }
+
+            h2 {
+                width: 100% !important;
+                font-size: 20px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .galleryParent {
+
+        .galleryHeader {
+
+            h2 {
+                margin-top: 10px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .galleryParent {
+
+        .galleryHeader {
+
+            h2 {
+                margin-top: 10px !important;
+                letter-spacing: 0 !important;
+                line-height: 25px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .galleryParent {
+
+        .galleryContent {
+            height: 700px !important;
+            grid-template-columns: repeat(2, 1fr) !important;
+            grid-template-rows: repeat(3, 1fr) !important;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+    .galleryParent {
+
+        .galleryContent {
+            grid-gap: 10px !important;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+    .galleryParent {
+
+        .galleryContent {
+            display: block !important;
+            height: 100% !important;
+
+            .galleryImage {
+                margin: 20px 0 !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .galleryParent {
+
+        .galleryContent {
+
+            .galleryImage {
+                
+                span {
+
+                    p {
+                        font-size: 16px !important;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+                        // SERVICES
+
+
+
+
+@media only screen and (max-width: 1500px) {
+
+    #services {
+        margin-top: 0 !important;
+    }
+
+    .servicesParent {
+
+        .servicesContent {
+
+            .servicesLogoParent {
+
+                .servicesLogoContent {
+
+                    h4 {
+                        letter-spacing: 0 !important;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .servicesParent {
+        display: block !important;
+
+        .servicesMobileHeader {
+            display: block !important;
+        }
+
+        .servicesImg {
+            display: none !important;
+        }
+
+        .servicesContent {
+            margin: 0 !important;
+
+            h1 {
+                margin-top: 40px !important;
+            }
+
+            .servicesLogoParent {
+                margin-top: 45px !important;
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+
+    .servicesParent {
+
+        .servicesContent {
+
+            h1 {
+                font-size: 25px !important;
+            }
+
+            h2 {
+                font-size: 18px !important;
+                line-height: 25px !important;
+                margin-top: 10px !important;
+            }
+
+            .servicesLogoParent {
+
+                i {
+                    font-size: 30px !important;
+                }
+
+                .servicesLogoContent {
+                    margin-left: 25px !important;
+
+                    h3 {
+                        font-size: 20px !important;
+                    }
+
+                    h4 {
+                        font-size: 18px !important;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 460px) {
+
+    .servicesParent {
+
+        .servicesContent {
+
+            h1 {
+                font-size: 23px !important;
+            }
+
+            h2 {
+                font-size: 16px !important;
+                line-height: 23px !important;
+            }
+
+            .servicesLogoParent {
+                margin-top: 35px !important;
+
+                i {
+                    font-size: 25px !important;
+                }
+
+                .servicesLogoContent {
+                    margin-left: 20px !important;
+
+                    h3 {
+                        font-size: 18px !important;
+                    }
+
+                    h4 {
+                        font-size: 16px !important;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+                        // CONTACT
+
+
+
+
+@media only screen and (max-width: 1500px) {
+
+    .contactParent {
+
+        .contactHeader {
+
+            h1 {
+                font-size: 28px !important;
+            }
+
+            h2 {
+                font-size: 20px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .contactParent {
+
+        .contactHeader {
+
+            h1 {
+                font-size: 25px !important;
+            }
+
+            h2 {
+                font-size: 18px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
+
+    .contactParent {
+
+        .contactHeader {
+
+            h1 {
+                font-size: 23px !important;
+            }
+
+            h2 {
+                font-size: 16px !important;
+                line-height: 25px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .contactParent {
+
+        .contactContentParent {
+
+            .messageParent {
+
+                #firstName,
+                #lastName,
+                #email,
+                #subject {
+                    width: 250px !important;
+                }
+
+                #message {
+                    width: 565px !important;
+                }
+            }
+
+            .addressParent {
+
+                .addressContent {
+                    margin-top: 30px !important;
+
+                    i {
+                        font-size: 25px !important;
+                    }
+
+                    p {
+                        margin-top: 8px;
+                        line-height: 25px !important;
+                        font-size: 15px !important;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .contactParent {
+
+        .contactContentParent {
+            display: block !important;
+
+            .messageParent,
+            .addressParent {
+                width: 100% !important;
+            }
+
+            .messageParent {
+
+                #firstName,
+                #lastName,
+                #email,
+                #subject {
+                    width: 290px !important;
+                }
+
+                #message {
+                    width: 635px !important;
+                }
+
+            }
+
+            .addressParent {
+                margin-top: 60px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .contactParent {
+
+        .contactContentParent {
+
+            .messageParent {
+
+                #firstName,
+                #lastName,
+                #email,
+                #subject,
+                #message {
+                    width: 100% !important;
+                }
+
+                .inputParent {
+                    margin-top: 30px !important;
+                }
+
+                .gridParent {
+                    display: block !important;
+                }
+
+            }
+
+            .addressParent {
+                margin-top: 60px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+
+    .contactParent {
+
+        .contactContentParent {
+
+            .messageParent {
+
+                .checkBoxParent {
+
+                    #policy + label {
+                        font-size: 14px !important;
+                    }
+                }
+
+            }
+
+            .addressParent {
+                
+                .addressContent {
+
+
+                    .addressText {
+                        margin-left: 20px !important;
+                    }
+
+                    p {
+                        line-height: 25px !important;
+                        margin-top: 8px !important;
+                        font-size: 14px !important;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .contactParent {
+
+        .followParent {
+
+            h1 {
+                font-size: 25px !important;
+            }
+
+            p {
+                font-size: 14px !important;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .contactParent {
+
+        .followParent {
+
+            .followGridParent {
+                grid-template-columns: repeat(2, 1fr) !important;
+                grid-template-rows: repeat(2, 1fr) !important;
+            }
+
+        }
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contactParent {
+
+        .followParent {
+
+            h1 {
+                font-size: 20px !important;
+            }
+
+            .followGridParent {
+                grid-gap: 10px !important;
+            }
+
+            p {
+                font-size: 13px !important;
+            }
+
+        }
+    }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+    .contactParent {
+
+        .followParent {
+
+            h1 {
+                font-size: 18px !important;
+            }
+
+            .followGridParent {
+                grid-template-columns: repeat(1, 1fr) !important;
+                grid-template-rows: repeat(4, 1fr) !important;
+                grid-gap: 20px !important;
+            }
+
+            p {
+                font-size: 12px !important;
+            }
+
+        }
+    }
+
+}
